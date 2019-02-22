@@ -1,0 +1,88 @@
+body {
+    background-color: blueviolet;
+}
+
+p {
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#debator {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intro {
+    text-align: justify;
+
+
+}
+
+.introduction>p {
+
+    text-align: center;
+
+
+}
+
+.quote {
+    font-style: italic;
+}
+
+.identify {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    border: 1px dotted black;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px goldenrod solid;
+}
+
+.img {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    border: 10px goldenrod solid;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding: 0px 50px 0px 50px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.imgtext {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
